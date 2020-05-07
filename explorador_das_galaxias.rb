@@ -10,12 +10,12 @@ puts" /_  __      __  _\ "
 puts"  \/  \    /  \/    "
 puts"      /_  _\        "
 puts"        \/          "
-  puts "O meu planeta precisa saber o seu planeta irmão...."
-  puts "...Para isso os cientistas descobriram um algoritmo que informa o ID desse planeta...."
+  puts "Precisamos saber onde esta a recompensa...."
+  puts "...Foi deixado por um programador um algoritmo capaz de informar o ID de uma planeta onde está a recompensa...."
   puts "Informe seu nome para continuarmos?"
   nome = gets.strip
   puts "\n\n\n\n\n\n"
-  puts "Cabe você #{nome} descobrir o ID do nosso planeta irmão para juntar a família novamente" 
+  puts "Cabe você #{nome} descobrir o ID desse planeta para descobrir onde esta nossa recompensa" 
   nome
 end
 
@@ -37,7 +37,7 @@ def galaxia_sorteada(dificuldade)
   else
     maximo = 200
   end
-  puts "Escolhendo uma possível galáxia entre 1 a #{maximo}..."
+  puts "Escolhendo o ID do planeta entre 1 a #{maximo}..."
   galaxia_sorteada = rand(maximo+1)
   galaxia_sorteada
 end
@@ -55,10 +55,10 @@ def pede_um_numero(chutes, tentativa, limite_de_tentativa)
   puts "." + "." + "." + "."
   puts "." + "." + "." + "." + "." + "."
   puts "Tentativa #{tentativa} de #{limite_de_tentativa}" 
-  puts "Você já tentou as seguintes galáxias #{chutes}"  
-  puts "Tente acerta o número da galáxia escolhida..."
+  puts "Você já tentou as seguintes planetas #{chutes}"  
+  puts "Tente acerta o ID do planeta escolhido..."
   chute = gets.strip
-  puts "Você me informou a galáxia #{chute}"  
+  puts "Você me informou o ID #{chute}"  
   chute.to_i
 end
 
@@ -109,7 +109,7 @@ def ganhou_morno()
   puts "     .                       .                "
   puts "  .                  .             .       .   "
 
-  puts "Uau! parece que encontramos as constelações próximas do nosso planeta irmão... "
+  puts "Uau! parece que encontramos as constelações próximas do nosso planeta... "
   puts "mais ainda estamos muitos anos-luz de distância do nosso querido irmão"
   puts "Vá para o próximo nível para chegar mais próximo"
 end
@@ -149,7 +149,7 @@ puts " .       .       .       .       .       .       .       .       .      . 
 puts "     .      .      .      .      .      .      .      .      .      .      ."
 
 
-puts "Contemple a visão da Galáxia do nosso planeta irmão"
+puts "Contemple a visão da Galáxia onde está o nosso planeta "
 puts "Estamos quase lá talvez se você fosse para o nível 4 vamos chegar mais próximo!"
 end
 
@@ -164,12 +164,12 @@ puts " {{            +             +                  +   @          {{ "
 puts " }}   <                *           o     +                .    }} "
 puts " {{  -O-    o               .               .    '-.   +       {{ "
 puts " }}   x                    _,..,_              o    |          }} "
-puts " {{           +    *    .-'.         .             -O-         {{ "
+puts " {{           +    *                 .             -O-         {{ "
 puts " }}      *      .'.-'         .---.   `             |     *    }} "
-puts " {{ .                /_.-'   /     l                           {{ "
-puts " }}         ' -=*<  |-._.-  |   @   |                        + }} "
-puts " {{ -- )--           /`-.    l     /                           {{ "
-puts " }}       *     +     `.'.    '---'            +       o       }} "
+puts " {{ .                        /     l                           {{ "
+puts " }}         ' -=*<          |   @   |                        + }} "
+puts " {{ -- )--                   l     /                           {{ "
+puts " }}       *     +     `       '---'            +       o       }} "
 puts " {{              '-._     .                 .                  {{ "
 puts " }}         |               `               - --===D       @   }} " 
 puts " {{   o    -O-      *   .                  *        +          {{ "
@@ -178,7 +178,7 @@ puts " {{              .     @      o                        *       {{ "
 puts " }}       o                          *          o           .  }} "
 puts " {{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{ "
 
-puts "Estamos quase lá conseguimos ver nosso planeta irmão e ele tem alguns meteoros próximos"
+puts "Estamos quase lá conseguimos ver nosso planeta da nossa recompensa"
 puts "Talvez com no nível 5 do jogo podemos ter uma visão mais aproximada!"
 
 
@@ -208,9 +208,9 @@ puts"     ..  . . ..:..::..      !+*J.            :         +Q   J  !: . .....::
 puts"     .      .    .         !+++*M+           ..       .  MM :MJ!. . ..:::.:.::..::::!:::!!!!:!*!    "
 puts"       :+!..     .         *M++!.       ... .:.     .   . .M  :!  ......:..:.:::.!::::!!:*!:!*!*    "
 puts"   .   .!:!: ... .           !**..    ..        .         .. .:... ..:..:..::!::::::::!!::!!+***.   "
-puts"       !+ . .            :Q*.    JM    .. :.  ..          . . .. ....:....::::.:.::!:!:::!J+*+!*:   "
-puts"     .  .*  .. ..      .  QJ     M+          .  :.       . ..:. ..........::.:.:::!:::!!:!!++*!*.   "
-puts"     .:.      .  ..       !Q.   !M               .         .  :. ....::. !...::::::::!:!::J+*+**.   "
+puts"       !+ . .            :Q*. $$$ JM    .. :.  ..          . . .. ....:....::::.:.::!:!:::!J+*+!*:   "
+puts"     .  .*  .. ..      .  QJ  $$$ M+          .  :.       . ..:. ..........::.:.:::!:::!!:!!++*!*.   "
+puts"     .:.      .  ..       !Q. $ !M               .         .  :. ....::. !...::::::::!:!::J+*+**.   "
 puts"    . .  .       .          :J.:MJQQ!           .:         .. . ...  .JQ*.:.:::::::!::!!::!*++!!.   "
 puts"      ..         ..       !Q+!              . .  .......... .. .!*+*. !Q+ ..:.::::::!:!:!!!!*!*!    "
 puts"     .    .      ..                    .. .      .     .  . .    +Q! .!!Q:.::.:::::::!:!!!*!*!*:    "
@@ -297,7 +297,7 @@ def loop_principal(nome)
     end
   end
 
-    puts "Numero da Galáxia era #{galaxia_secreta}" 
+    puts "Numero ID do planeta era #{galaxia_secreta}" 
     puts "Total de pontos no jogo é #{pontos}"
   pontos
 end

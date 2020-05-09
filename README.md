@@ -10,7 +10,7 @@ Basta abrir o terminal e digitar o comando: <b> ruby -v </b>
 Caso o comando retorne um erro deve ser feita a instalação do Ruby. Não vou detalhar aqui como isso é feito pois sempre está mudando conforme novas versões são lançadas. Para  realizar a instalaão deve seguir as instruções no site oficial:
 https://www.ruby-lang.org/pt/
 
-Para rodar o jogo basta ir até o diretório onde o jogo foi baixado e digitar:
+Com ruby instalado para rodar o jogo basta ir até o diretório onde o jogo foi baixado e digitar:
 <b> ruby explorador_das_galaxias.rb </b>
 
 Boa diversão!
